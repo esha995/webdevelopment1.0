@@ -1,0 +1,130 @@
+*
+{  padding:0 ; margin:0;box-sizing: border-box;
+    }
+
+
+#header
+    {
+        width : 100%;
+            height: 100px;
+            background-color: grey;
+            color:white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            line-height: 100px; 
+               
+
+    }
+.banner
+    {
+        margin-top: 20px;
+        width:100%;
+        height:100vh;/*view port height*/
+        background-color:rgba(47, 180, 241, 0.412);
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        line-height: 100vh;   
+
+    }
+#sec-1
+{
+    display:flex;
+
+}
+#sec-1 .circles {
+     width: 250px;
+     height: 250px;
+     background-color: orange;
+     color:white
+     display:inline-block; 
+     border-radius: 50%;
+     margin:20px;
+     font-size:24px;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     
+} 
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h2
+{
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 40px;
+
+}
+#sec-2
+{
+    display: flex;
+    justify-content: space-between;
+}
+#sec-2 main
+{
+    width: 50%;
+    height:500px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color:white;
+    font-size:24px;
+
+}
+aside
+{
+    align-items: center;
+    width: 48%;
+    height:500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    color:rgb(2, 1, 13)
+   
+    
+
+}
+aside .art
+{
+    width: 100%;
+    height:150px;
+    background-color:orange;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+}
+#sec-3
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    
+}
+#sec-3 .boxes
+{
+    width: 20%;
+    height: 300px;
+    background-color:red;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+footer
+{
+    width: 100%;
+    height: 100px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+}
+
