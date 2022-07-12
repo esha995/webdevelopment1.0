@@ -26,6 +26,7 @@ function create(e) {
     var cmpltBtn = document.createElement("button");
     cmpltBtn.classList.add("cmpltBtn");
     cmpltBtn.innerHTML = '<i class="fa fa-check " aria-hidden="true"></i>';
+    
     newDiv.appendChild(cmpltBtn);
 
     var deleteBtn = document.createElement("button");
