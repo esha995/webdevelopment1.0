@@ -44,16 +44,15 @@ function setGreeting() {
 
   if (hour < 12) {
     document.body.style.backgroundImage =
-      'url("../images/morning.jpg")';
+      'url("../Images/Practical-17/morning.jpg")';
     greeting.innerHTML = "Good Morning";
   } else if (hour < 18) {
     document.body.style.backgroundImage =
-      'url("../images/afternoon.jpg")';
+      'url("../Images/Practical-17/afternoon.jpg")';
     greeting.innerHTML = "Good Afternoon";
   } else {
-          */document.body.style.backgroundImage =
-          'url("../images/night.jpg")';/*
-
+    document.body.style.backgroundImage =
+      'url("../Images/Practical-17/night.jpg")';
     greeting.innerHTML = "Good Evening";
     document.body.style.color = "white";
   }
@@ -61,7 +60,7 @@ function setGreeting() {
 
 function getName() {
   if (localStorage.getItem("myData") === null) {
-    name.innerHTML = "[Enter Name]";
+    name.innerHTML = "Esha Agarwal";
   } else {
     name.innerHTML = localStorage.getItem("myData");
   }
